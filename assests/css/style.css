@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     width: 1366px;
     height: 60px;
     background-color: #0076ff;
@@ -35,14 +36,14 @@
 }
 .logo h2{
     text-transform: uppercase;
-    color: #fff;
-    text-shadow: 0px 0px 10px rgba(255,255,255,0.7);
+    color: #0b0b12;
+    text-shadow: 0px 0px 10px #0b0b12;
 
 }
 .nav_button a{
     text-decoration: none;
     padding: 10px;
-    background-color: #ff2ed1;
+    background-color: #0b0b12;
     color: white;
     border-radius: 25px;
     font-size: 14px;
@@ -52,33 +53,33 @@
     text-shadow: 0px 0px 10px rgba(0,0,0,0.7);
 }
 .nav_button a:hover{
-    box-shadow: 5px 6px 27px 3px #ff2ed1;
+    box-shadow: 5px 6px 27px 3px #0b0b12;
+    
 }
 
 /* Home section as lumora gate*/
 .LumoraGate{
     width: 1366px;
     height: 594px;
-    background-color: #0a0f33;
+    background-color: #0d1020;
 }
 
 
 .text{
   padding: 30px;
   color: #fff;
-  background-color: #0a0f33;
   text-shadow: 0px 0px 10px rgba(255,255,255,0.7);
   text-align: center;
 }
 
 
 
-/* */
+/* Lutrinats heros of tharquonix section*/
 
 .Luntrians{
     width: 1366px;
     height: 840px;
-    background-color: #0a0f33;
+    background-color: #101427;
 }
 
 .container1{
@@ -101,7 +102,7 @@
 }
 .card{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    background-color: #a64dff;
+    background-color: #1a2240;
     width: 300px;
     height: 350px;
     padding-top: 20px;
@@ -118,6 +119,57 @@
 }
 
 .card:hover{
+    transform: scale(0.9);
+    box-shadow: 5px 6px 27px 3px #a64dff;
+    transition: all 0.1s;
+}
+
+
+/* void realm destrutor of tharquonix */
+
+.voidReamls{
+    width: 1366px;
+    height: 840px;
+    background-color: #0b0b12;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.container2 a{
+    text-decoration: none;
+}
+.voidrealmtitle{
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.7);
+}
+.cardvoid{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #141423;
+    width: 300px;
+    height: 350px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.cardvoid img{
+    margin-left: 50px;
+}
+.text2{
+    text-align: center;
+    padding-top:20px ;
+    color: white;
+    font-size: 18px;
+}
+
+.cardvoid:hover{
     transform: scale(0.9);
     box-shadow: 5px 6px 27px 3px #a64dff;
     transition: all 0.1s;
